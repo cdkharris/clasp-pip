@@ -1,0 +1,18 @@
+* clasp-pip
+
+Miscellaneous space physics scripts in a variety of languages.
+
+** Python
+*** =fields_extract.py=
+Packages: tecplot, numpy, os
+
+This script extracts a volume of electromagnetic field vectors from Tecplot data.
+Change the values at the end of the file to select:
+- the limits of the volume
+- the resolution of the interpolated cartesian grid
+- the data to extract from
+You can also change the equations which are applied to the data and the variables which are finally extracted.
+
+** MATLAB
+
+** Tecplot Macros
